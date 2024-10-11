@@ -8,7 +8,7 @@ header{
 .nav-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 10px 0;
 }
 header nav ul {
