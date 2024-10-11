@@ -2,5 +2,28 @@
     margin: 0;
 }
 header{
-    font-size: 25;
+    background-color: beige;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+header nav ul {
+    list-style: none;
+    color: black;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a.current-page {
+    color: blue;
 }
