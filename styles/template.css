@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: beige;
+    color: black;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a.current-page {
+    color: blue;
+}
