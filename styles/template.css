@@ -37,10 +37,10 @@ header #panier {
     top: 0;
     margin-right: 15px;
     margin-top: 5px;
-    fill: #b6b6b6;
+    color: #b6b6b6;
 }
 
 header #panier.current-page {
-    fill: #785964;
+    color: #785964;
 }
 
