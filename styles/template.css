@@ -1,3 +1,35 @@
-*{
+body {
     margin: 0;
+}
+
+header{
+    background-color: #D8BD8A;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    color: #b6b6b6;
+    font-size: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a.current-page {
+    color: #785964;
+}
+
+header #panier {
+    float: right;
 }
