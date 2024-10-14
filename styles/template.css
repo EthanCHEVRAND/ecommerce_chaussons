@@ -45,6 +45,7 @@ header #panier.current-page {
 }
 
 .material-symbols-outlined {
+    font-family: 'Material Icons';
   font-variation-settings:
   'FILL' 1,
   'wght' 300,
