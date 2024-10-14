@@ -31,5 +31,6 @@ header nav ul li a.current-page {
 }
 
 header #panier {
+    display: block;
     float: right;
 }
