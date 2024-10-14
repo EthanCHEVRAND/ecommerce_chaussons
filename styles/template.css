@@ -18,12 +18,12 @@ header nav ul {
 header nav ul li {
     display: inline;
     margin: 0 15px;
-    color: #b6b6b6;
     font-size: 25px;
 }
 
 header nav ul li a {
     text-decoration: none;
+    color: #b6b6b6;
 }
 
 header nav ul li a.current-page {
@@ -37,6 +37,6 @@ header #panier {
     top: 0;
     margin-right: 15px;
     margin-top: 5px;
-    height: 24px;
+    height: 18px;
     width: auto;
 }
