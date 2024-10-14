@@ -37,11 +37,6 @@ header #panier {
     top: 0;
     margin-right: 15px;
     margin-top: 5px;
+    height: 15px;
+    width: auto;
 }
-
-header #panier.current-page {
-    color: #785964;
-}
-
-
-
