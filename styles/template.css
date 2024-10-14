@@ -34,5 +34,7 @@ header #panier {
     display: block;
     position: absolute;
     right: 0;
+    top: 0;
     margin-right: 15px;
+    margin-top: 5px;
 }
