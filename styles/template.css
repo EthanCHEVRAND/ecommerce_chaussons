@@ -19,12 +19,10 @@ header nav ul li {
     display: inline;
     margin: 0 15px;
     font-size: 25px;
-    color: #e6e6e6;
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: #e6e6e6;
 }
 
 header nav ul li a.current-page {
