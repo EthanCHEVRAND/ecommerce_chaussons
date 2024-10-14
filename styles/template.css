@@ -37,19 +37,11 @@ header #panier {
     top: 0;
     margin-right: 15px;
     margin-top: 5px;
-    color: #b6b6b6;
 }
 
 header #panier.current-page {
     color: #785964;
 }
 
-.material-symbols-outlined {
-    font-family: 'Material Icons';
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 300,
-  'GRAD' 0,
-  'opsz' 24
-}
+
 
