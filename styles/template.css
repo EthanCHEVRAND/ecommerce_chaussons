@@ -34,8 +34,8 @@ header #panier {
     position: absolute;
     right: 0;
     top: 0;
-    margin-right: 15px;
+    margin: 10px;
     margin-top: 5px;
-    height: 18px;
+    height: 55px;
     width: auto;
 }
