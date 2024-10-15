@@ -8,11 +8,10 @@ body {
     justify-content: center;
     border: 2px solid grey;
     border-radius: 10px;
-    width: 50%;
+    width: 500px;
 }
 #mario{
     width: 10%;
     height: 10%;
-    border: 1px solid black;
     border-radius: 5px;
 }
