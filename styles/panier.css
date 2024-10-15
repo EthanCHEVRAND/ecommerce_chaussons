@@ -3,6 +3,7 @@ body {
 }
 .texte{
     background-color: rgb(243, 243, 243);
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
