@@ -4,5 +4,7 @@ body {
 .content{
     background-color: aquamarine;
     display: flex;
-    float: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
 }
