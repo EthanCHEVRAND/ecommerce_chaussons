@@ -4,7 +4,9 @@ body {
 .texte{
     background-color: lightgray;
     display: flex;
+    align-items: center;
     justify-content: center;
+    float: center;
     border: 2px solid grey;
     border-radius: 10px;
     width: 50%;
