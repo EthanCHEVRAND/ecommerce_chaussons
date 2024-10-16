@@ -13,3 +13,6 @@ body {
     height: 10%;
     border-radius: 5px;
 }
+image_cote_texte{
+    display: flexbox;
+}
