@@ -2,18 +2,51 @@ body {
     margin: 0;
 }
 .texte{
-    background-color: rgb(243, 243, 243);
-    margin: 20px auto;
+    background-color: rgb(245, 245, 245);
+    margin: 30px 60px;
     border: 2px solid grey;
     border-radius: 10px;
-    width: 50%;
+    width: 60%;
+    float: left;
 }
 #mario{
-    width: 10%;
-    height: 10%;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    border: 1px solid black;
     border-radius: 5px;
+    margin: 15px 15px 20px 20px;
+}
+#boutton_plus{
+    width: 20px;
+    height: 20px;
 }
 .image_cote_texte{
-    display: flexbox;
-    margin-right: 20px;
+    display: flex;
+}
+.image_cote_texte img{
+    order: 1;
+}
+.image_cote_texte .description{
+    order: 2;
+}
+#quantite{
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 10px;
+    width: 3em;
+    height: 1em;
+}
+.label_quantite{
+    display: flex;
+}
+label{
+    font-size: 1.5em;
+}
+.princesse_peach{
+    font-size: 0.8em;
+    color:rgb(218, 155, 165);
 }
