@@ -118,6 +118,7 @@ body {
     float: right;
     font-size: 2.5em;
     color: red;
+    margin-right: 15px;
 }
 .texte_droit b{
     text-decoration: line-through red;
