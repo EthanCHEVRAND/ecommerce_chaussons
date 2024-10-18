@@ -21,7 +21,7 @@
         <a href="#" id="panier"><img src="../images/panier_icon_filled.png" alt="panier_rempli" id="panier"></a>
     </header>
     <div class="texte">
-        <div class="image_cote_texte">
+        <div class="image1_cote_texte">
             <img id="mario" src="../images/mario.jpeg" alt="image_mario">
             <div class="description">
                 <p>
@@ -31,13 +31,48 @@
                         <br><br>
                         <div class="label_quantite">
                             <label for="quantite">Quantité &nbsp&nbsp&nbsp</label>
-                            <input type="number" id="quantite" name="quantite">
+                            <input type="number" id="quantite" name="quantite" value="2">
                         </div> 
                         <br>
                     </p>
                 </p>
             </div>
         </div>
+        <div class="image2_cote_texte">
+            <img id="chaussons_chiens" src="chaussons_pour_chien.png" alt="image_chaussons_chiens">
+            <div class="description">
+                <p>
+                    <p>
+                        <b>Chaussons pour chiens anti-dérapants</b>, aucune chance pour votre chien de glisser
+                        <p class="griffes_chiens">PLus d'excuses maintenant pour faire des bisous à votre chien car les griffes ne feront plus mal !</p>
+                        <br>
+                        <div class="texte_droit">
+                            <b>10.99 €</b>&nbsp&nbsp 13.99 €
+                        </div>
+                        <br>
+                        <div class="label_quantite">
+                            <label for="quantite" id="quantite_label">Quantité &nbsp&nbsp&nbsp</label>
+                            <input type="number" id="quantite" name="quantite" value="1">
+                            
+                        </div> 
+                        
+                        <br>
+                    </p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bon_achat">
+        <div class="label_code">
+            <input type="texte" id="code" name="code" placeholder="Saisir votre bon d'achat">
+            <label for="code" id="code_label"></label>
+            <label for="appliquer" id="appliquer"></label>
+            <input type="submit" id="submit" name="boutton_submit" value="Appliquer">
+        </div>
+    </div>
+    <div class="payer">
+        <h1 id="titre_payer">Payer</h1>
+    </div>
     </div>
 </body>
 </html>

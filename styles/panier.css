@@ -21,13 +21,13 @@ body {
     width: 20px;
     height: 20px;
 }
-.image_cote_texte{
+.image1_cote_texte{
     display: flex;
 }
-.image_cote_texte img{
+.image1_cote_texte img{
     order: 1;
 }
-.image_cote_texte .description{
+.image1_cote_texte .description{
     order: 2;
 }
 #quantite{
@@ -43,10 +43,83 @@ body {
 .label_quantite{
     display: flex;
 }
-label{
+#quantite_label{
     font-size: 1.5em;
 }
 .princesse_peach{
     font-size: 0.8em;
     color:rgb(218, 155, 165);
+}
+#chaussons_chiens{
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px 15px 20px 20px;
+}
+.griffes_chiens{
+    font-size: 0.8em;
+    color:rgb(82, 168, 194);
+}
+.image2_cote_texte{
+    display: flex;
+}
+.image2_cote_texte img{
+    order: 1;
+}
+.image2_cote_texte .description{
+    order: 2;
+}
+.bon_achat{
+    background-color: rgb(245, 245, 245);
+    margin: 30px 60px 0px 0px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 35%;
+    float: right;
+}
+#code_label{
+    font-size: 1.5em;
+    display: inline-block;
+}
+#code{
+    justify-content: center;
+    height: 2em;
+    width: 65%;
+    margin: 10px 10px;
+    font-size: 1.5em;
+}
+::placeholder{
+    font-size: 1em;
+}
+#submit{
+    height: 2em;
+    float: right;
+    margin: 10px;
+    font-size: 1.5em;
+    color: #D8BD8A;
+    border: 1px solid #D8BD8A;
+    border-radius: 5px;
+    background-color: white;
+}
+.payer{
+    background-color: rgb(245, 245, 245);
+    margin: 30px 60px 0px 0px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 35%;
+    float: right;
+}
+#titre_payer{
+    text-align: center;
+}
+.texte_droit{
+    float: right;
+    font-size: 2.5em;
+    color: red;
+}
+.texte_droit b{
+    text-decoration: line-through red;
+    color: black;
 }
