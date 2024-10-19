@@ -1,21 +1,54 @@
 main{
-    margin : 10px;
+    
     display: flex;
     flex-direction: column;
 
 }
 
-.titre_apropos{
+.titre_apropos {
+    width: 100%;
+    border-top: 2px solid black;
+    max-height: 700px;
+    object-fit: cover;
+    object-position: 90% 70%;
 
 }
 
 .titre_text_apropos{
-    background-color: white;
+   
     position: absolute;
-    top:20%;
-    left:50%;
+    top:30%;
+    left:10%;
     display: flex;
     flex-direction: row;
+    width: 40%;
+    border: 3px solid brown;
+    background-color: #D8BD8A;
+    border-radius: 100px 100px 100px 100px ;
+    flex-wrap: wrap;
+   
+
+}
+.titre_text_apropos img {
+    padding: 10px;
+    max-width  : 30%;
+    
+    clip-path: ellipse(45% 45%) ;
+    object-fit:fill;
+ 
+}
+
+.blabla_titre_apropos{
+    margin: 15px;
+    width: 60%;
+}
+
+.titre_text_apropos h1{
+    margin: 0px;
+    
+}
+
+.titre_text_apropos p{
 
 }
 
