@@ -1,0 +1,11 @@
+#sousnav{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#sousnav a{
+    color: black;
+}
