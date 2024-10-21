@@ -9,3 +9,24 @@
 #sousnav a{
     color: black;
 }
+
+#font_index{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--couleur2);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_index{
+    background-color: #523c44;
+    width: 80%;
+    height: 1000px;
+    border-radius: 20px;
+
+}
