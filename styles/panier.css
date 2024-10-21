@@ -10,16 +10,12 @@ body {
     float: left;
 }
 #mario{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 1px;
     border: 1px solid black;
     border-radius: 5px;
     margin: 15px 15px 20px 20px;
-}
-#boutton_plus{
-    width: 20px;
-    height: 20px;
 }
 .image1_cote_texte{
     display: flex;
@@ -51,8 +47,8 @@ body {
     color:rgb(218, 155, 165);
 }
 #chaussons_chiens{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 1px;
     border: 1px solid black;
     border-radius: 5px;
@@ -115,12 +111,41 @@ body {
     text-align: center;
 }
 .texte_droit{
-    float: right;
-    font-size: 2.5em;
+    font-size: 2em;
     color: red;
-    margin-right: 15px;
 }
 .texte_droit b{
     text-decoration: line-through red;
     color: black;
+}
+#chausson_bestherelle{
+    width: 200px;
+    height: 200px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px 15px 20px 20px;
+}
+.image3_cote_texte{
+    display: flex;
+}
+.image3_cote_texte img{
+    order: 1;
+}
+.image3_cote_texte .description{
+    order: 2;
+}
+.bestherelle{
+    font-size: 0.8em;
+    color:rgb(85, 187, 85);
+}
+.paiement{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 2em;
+    float: left;
+}
+hr{
+    margin-right: 50px;
+    margin-left: 50px;
 }
