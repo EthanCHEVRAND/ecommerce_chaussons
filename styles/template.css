@@ -1,9 +1,15 @@
+html{
+    --couleur1: #D8BD8A;
+    --couleur2: #785964;
+    --couleur3: #B6B6B6;
+}
+
 body {
     margin: 0;
 }
 
 header{
-    background-color: #D8BD8A;
+    background-color: var(--couleur1);
 }
 .nav-container {
     display: flex;
@@ -26,7 +32,7 @@ header nav ul li a {
 }
 
 header nav ul li a.current-page {
-    color: #785964;
+    color: var(--couleur2);
 }
 
 header #panier {
