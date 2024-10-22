@@ -28,5 +28,33 @@
     width: 80%;
     height: 1000px;
     border-radius: 20px;
+}
 
+#bestseller{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#bestseller div{
+    width: 240px;
+    height: 240px;
+    background-color: #523c44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#bestseller div img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: transform .1s;
+}
+
+#bestseller div:hover{
+    transform: scale(1.1);
+    border: solid;
 }
