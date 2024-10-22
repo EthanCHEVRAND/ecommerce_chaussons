@@ -205,6 +205,17 @@ hr{
     display: flex;
     justify-content: space-between;
 }
+.logo_carte_credit{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 50px;
+}
+.logo_carte_credit img{
+    width: 70px;
+    height: 50px;
+    border: 1px solid gray;
+}
 #retour_boutique{
     text-decoration: none;
     color: var(--couleur2);
