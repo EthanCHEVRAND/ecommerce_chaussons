@@ -48,24 +48,41 @@ main{
     
 }
 
-.titre_text_apropos p{
-
-}
 
 .recette_apropos{
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    justify-items: center;
+}
+.titre_recette{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 30%;
+}
+#triangle-down {
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 50px solid rgb(12, 12, 12);
+    
 }
 
 .la_mamie{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    
+    width: 20%;
+    background-color: rgb(241, 148, 148);
+    position:absolute;
+    top: 800px;
+    right: 20px;
 }
 
-.images_diagonales_apropos{
-
+.la_mamie img{
+    width: 100%;
+    height: auto;
+    border-image-source: url(/images/image_apropos/)
 }
 
