@@ -2,6 +2,10 @@
 
 [Accès au site](https://ethanchevrand.github.io/ecommerce_chaussons/)
 
+## Participants
+
+Les participants sont Alexis COLAS, Suzanne DELOFFRE, Ethan CHEVRAND et Alban CHOULET.
+
 ## Roles
 
 - La page d'accueil a été réalisée par Alexis COLAS.
