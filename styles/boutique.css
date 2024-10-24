@@ -5,7 +5,7 @@ main {
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -15,6 +15,7 @@ main {
     border-color: var(--couleur3);
     border: 5px solid var(--couleur3);
     border-radius: 7px;
+    margin-bottom: 10px;
 }
 
 .store {
@@ -53,3 +54,24 @@ main {
     height: 300px;
     width: 300px;
 }
+
+.item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.filters {
+    background-color: #523c44;
+    border-radius: 20px;
+    padding: 15px;
+    top: 100px;
+}
+
+.filters label {
+    color: var(--couleur3);
+}
+
+.filters span {
+    color: var(--couleur3)
+}
+
