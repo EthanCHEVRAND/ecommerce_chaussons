@@ -35,6 +35,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    margin: 20px;
 }
 
 #bestseller div{
@@ -59,23 +60,9 @@
     border: solid;
 }
 
-#bestseller div:hover img{
-    visibility: hidden;
-}
-
-#bestseller div p{
-    position: absolute;
-    top: 3px;
-    left: 20px;
-    visibility: hidden;
+h2{
+    width: 90%;
     border: solid;
     border-radius: 20px;
-    height: 198px;
-    width: 198px;
-}
-
-#bestseller div:hover p{
-    visibility: visible;
     text-align: center;
 }
-
