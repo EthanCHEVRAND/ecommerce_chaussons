@@ -1,6 +1,5 @@
 main {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 10px 20px 10px;
     background-color: var(--couleur2);
     height: 100%;
     width: 100%;
@@ -117,4 +116,25 @@ main {
 #valider:hover {
     color: var(--couleur2);
     background-color: var(--couleur3);
+}
+
+@media only screen and (max-width: 720px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    .filters {
+        width: 80%;
+    }
+    
+    .info {
+        padding: 3px;
+        color: var(--couleur3);
+        font-size: 0.55em;
+    }
+
+    .item-image {
+        height: 150px;
+        width: 150px;
+    }
 }
