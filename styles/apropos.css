@@ -55,13 +55,8 @@ main{
     justify-content: center;
    
 }
-.titre_recette{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-}
+
+
 #triangle-down {
     width: 0px;
     height: 0px;
@@ -74,22 +69,34 @@ main{
 .mamie_titre{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    
+    
 }
 
 .la_mamie{
     display: flex;
     flex-direction: column;
+    position: relative;
+    top : -100px;
+    right: 40%;
     justify-content: right;
-    width: 40%;
-    background-color: rgb(241, 148, 148);
-    margin: 20px;
-   
+    width: 10%;
+      
 }
 
 .la_mamie img{
     width: 100%;
-    border-image-source: url(/images/image_apropos/)
+    border : solid black 3px;
+}
+.la_mamie p{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: #785964;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .diagonals_images{
@@ -114,6 +121,10 @@ main{
     align-items: center;
     flex-wrap: wrap;
     height: 80%;
+    background-color: #D8BD8A;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.164) 10px 10px;
+    padding-top:10px;
     
     
 }
@@ -165,13 +176,43 @@ main{
 .preparation{
     list-style-type: decimal;
     width: 80%;
-    margin: 20px;
     letter-spacing: 3px;
     line-height: 3em;
+    
 }
 
 .la_prepa{
     display: flex;
     flex-direction: column;
     height: 80%;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:  80%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+.formulaire label{
+    display: flex;
+    width: 500px;
+
+}
+.formulaire input textarea{
+    display: flex;
+    width: 500px;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.boutton{
+    display: flex;
+    width: 200px;
+   
 }
