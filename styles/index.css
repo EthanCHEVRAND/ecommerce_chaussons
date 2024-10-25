@@ -58,3 +58,24 @@
     transform: scale(1.1);
     border: solid;
 }
+
+#bestseller div:hover img{
+    visibility: hidden;
+}
+
+#bestseller div p{
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    visibility: hidden;
+    border: solid;
+    border-radius: 20px;
+    height: 198px;
+    width: 198px;
+}
+
+#bestseller div:hover p{
+    visibility: visible;
+    text-align: center;
+}
+
