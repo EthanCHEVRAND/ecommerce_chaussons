@@ -174,7 +174,7 @@ hr{
 .point_info:hover .effet{
     opacity: 1;
     font-size: 0.5em;
-    height: 10%;
+    height: auto;
     background-color: var(--couleur1);
     border: 1px solid black;
     width: 20%;
