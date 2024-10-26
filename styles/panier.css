@@ -235,13 +235,10 @@ hr{
     text-decoration: none;
     color: var(--couleur2);
 }
-@media(max-width:1200px){
-    
+@media(max-width: 1200px){
     #submit{
         float: left;
     }
-}
-@media(max-width: 1050px){
     .paiement{
         font-size: 1em;
     }
