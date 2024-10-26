@@ -347,9 +347,11 @@ main{
     flex-direction: row;
 }
 
-.boutton{
+button{
     display: flex;
-    width: 200px;
+    width: 70px;
+    justify-content: center;
+
    
 }
 .formulaire fieldset{
