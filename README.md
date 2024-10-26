@@ -14,3 +14,4 @@ Les participants sont Alexis COLAS, Suzanne DELOFFRE, Ethan CHEVRAND et Alban CH
 - La page du panier a été réalisée par Alban CHOULET.
 
 - Le header a été réalisé par Alban et Ethan.
+- Le footer a été réalisé par Suzanne.
