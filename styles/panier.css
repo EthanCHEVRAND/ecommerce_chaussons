@@ -287,9 +287,5 @@ hr{
     .achat_payer{
         display: flex;
         justify-content: center;
-        flex-direction: column;
-    }
-    .question{
-        float: none;
     }
 }
