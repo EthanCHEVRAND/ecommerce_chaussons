@@ -259,13 +259,16 @@ hr{
     .image2_cote_texte{
         display: flex;
         flex-direction: column;
+        margin-left: 15px;
     }
     .image3_cote_texte{
         display: flex;
         flex-direction: column;
+        margin-left: 15px;
     }
     .texte{
         display: flex;
         flex-direction: column;
+        margin-left: 15px;
     }
 }
