@@ -50,3 +50,13 @@ header #panier {
     height: 55px;
     width: auto;
 }
+
+@media only screen and (max-width: 720px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        display: block;
+    } 
+}
