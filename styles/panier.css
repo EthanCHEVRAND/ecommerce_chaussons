@@ -236,13 +236,14 @@ hr{
     color: var(--couleur2);
 }
 @media(max-width:1200px){
-    .paiement{
-        font-size: 1em;
+    
+    #submit{
+        float: left;
     }
 }
 @media(max-width: 1050px){
-    #submit{
-        float: left;
+    .paiement{
+        font-size: 1em;
     }
     .livraison{
         font-size: 1em;
