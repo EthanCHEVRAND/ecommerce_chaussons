@@ -287,10 +287,12 @@ hr{
     .question{
         float: none;
         font-size: 1em;
+        height: auto;
     }
     .achat_payer{
         display: flex;
         flex-direction: column;
+        width: auto;
     }
     .tout_achat_payer{
         display: flex;
