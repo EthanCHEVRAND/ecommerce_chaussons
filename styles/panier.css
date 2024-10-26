@@ -286,6 +286,7 @@ hr{
     }
     .question{
         float: none;
+        font-size: 1em;
     }
     .achat_payer{
         display: flex;
