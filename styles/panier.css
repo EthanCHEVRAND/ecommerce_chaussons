@@ -274,8 +274,10 @@ hr{
     }
     .payer{
         float: left;
+        margin-left: 20%;
     }
     .bon_achat{
         float: right;
+        margin-right: 20%;
     }
 }
