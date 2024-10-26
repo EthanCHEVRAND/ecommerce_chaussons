@@ -269,6 +269,7 @@ hr{
         flex-direction: column;
     }
     .tout_texte{
+        display: flex;
         justify-content: center;
     }
     .description{
