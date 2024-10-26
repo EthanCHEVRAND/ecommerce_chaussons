@@ -275,13 +275,5 @@ hr{
     .description{
         margin-left: 15px;
     }
-    .tout_payer{
-        display: flex;
-        justify-content: center;
-    }
-    .bon_achat{
-        display: flex;
-        justify-content: center;
-    }
 
 }
