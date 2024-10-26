@@ -276,12 +276,12 @@ hr{
         margin-left: 15px;
     }
     .payer{
-        float: left;
-        margin: 5% 10% 5%;
+        display: flex;
+        justify-content: center;
     }
     .bon_achat{
-        float: right;
-        margin: 5% 10% 5%;
+        display: flex;
+        justify-content: center;
     }
 
 }
