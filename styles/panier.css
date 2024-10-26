@@ -1,6 +1,9 @@
 body {
     margin: 0;
 }
+main{
+    background-color: var(--couleur2);
+}
 .texte{
     background-color: rgb(245, 245, 245);
     margin: 3% 3%;
