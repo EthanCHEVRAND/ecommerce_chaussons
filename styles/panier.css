@@ -284,6 +284,9 @@ hr{
     .credit_card{
         font-size: 1em;
     }
+    .question{
+        float: none;
+    }
     .achat_payer{
         display: flex;
         justify-content: center;
