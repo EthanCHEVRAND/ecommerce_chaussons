@@ -269,8 +269,8 @@ hr{
         flex-direction: column;
     }
     .tout_texte{
-        display: flex;
-        justify-content: center;
+        float: left;
+        margin-left: 10%;
     }
     .description{
         margin-left: 15px;
@@ -295,8 +295,8 @@ hr{
         width: auto;
     }
     .tout_achat_payer{
-        display: flex;
-        justify-content: center;
+        float: left;
+        margin-left: 10%;
     }
 }
 @media(min-width: 1px){
