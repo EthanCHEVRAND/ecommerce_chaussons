@@ -92,7 +92,7 @@ body {
 #submit{
     height: 2em;
     float: right;
-    margin: 10px;
+    margin: 2%;
     font-size: 1.5em;
     color: #D8BD8A;
     border: 1px solid #D8BD8A;
@@ -234,4 +234,7 @@ hr{
 .question a{
     text-decoration: none;
     color: var(--couleur2);
+}
+@media(max-width : 700px){
+
 }
