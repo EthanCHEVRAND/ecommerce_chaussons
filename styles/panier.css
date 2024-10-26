@@ -83,7 +83,7 @@ body {
     justify-content: center;
     height: 2em;
     width: 65%;
-    margin: 2% 2%;
+    margin: 1% 1%;
     font-size: 1.5em;
 }
 ::placeholder{
@@ -92,7 +92,7 @@ body {
 #submit{
     height: 2em;
     float: right;
-    margin: 2%;
+    margin: 1%;
     font-size: 1.5em;
     color: #D8BD8A;
     border: 1px solid #D8BD8A;
