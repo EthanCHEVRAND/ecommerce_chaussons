@@ -299,3 +299,8 @@ hr{
         justify-content: center;
     }
 }
+@media(min-width: 1px){
+    main{
+        background-color: var(--couleur2);
+    }
+}
