@@ -289,4 +289,7 @@ hr{
         justify-content: center;
         flex-direction: column;
     }
+    .question{
+        float: none;
+    }
 }
