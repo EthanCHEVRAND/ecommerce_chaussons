@@ -267,6 +267,7 @@ hr{
     .texte{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .description{
         margin-left: 15px;
