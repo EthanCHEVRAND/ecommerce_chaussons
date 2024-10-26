@@ -73,3 +73,60 @@ header #logo {
 
 
 }
+/*----------------------------------*/
+/*le footer*/
+
+footer{
+    padding:50px;
+    background-color: #D8BD8A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
+        
+}
+.footer_text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer_text p{
+    margin-right: 10px;
+}
+.icone_follow{
+    margin:0px;
+    padding: 0px;
+}
+.horizontal{
+    display: inline-block;
+    list-style: none;
+    width: 8%;
+}
+.horizontal img{
+    clip-path: circle(40%);
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 50px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    
+}
+.field input{
+    width: 50%;
+}
+.field button{
+    width:20%;
+}
+iframe{
+    display: block;
+    align-items: end;
+    width: 300px;
+    height: 250px;
+
+       
+}
