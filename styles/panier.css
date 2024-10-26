@@ -264,4 +264,8 @@ hr{
         display: flex;
         flex-direction: column;
     }
+    .texte{
+        display: flex;
+        flex-direction: column;
+    }
 }
