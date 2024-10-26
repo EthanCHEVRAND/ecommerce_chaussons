@@ -280,8 +280,6 @@ hr{
     }
     .payer{
         float: none;
-        display: flex;
-        justify-content: center;
     }
     .credit_card{
         font-size: 1em;
@@ -290,12 +288,9 @@ hr{
         float: none;
         font-size: 1em;
     }
-    .achat{
+    .achat_payer{
         display: flex;
         justify-content: center;
-    }
-    .tout_question{
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
 }
