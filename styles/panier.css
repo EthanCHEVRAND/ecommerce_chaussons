@@ -267,6 +267,8 @@ hr{
     .texte{
         display: flex;
         flex-direction: column;
+    }
+    .tout_texte{
         justify-content: center;
     }
     .description{
@@ -274,10 +276,9 @@ hr{
     }
     .payer{
         float: left;
-        margin: auto;
     }
     .bon_achat{
         float: right;
-        margin: auto;
     }
+
 }
