@@ -292,7 +292,6 @@ hr{
     .achat_payer{
         display: flex;
         flex-direction: column;
-        width: auto;
     }
     .tout_achat_payer{
         display: flex;
