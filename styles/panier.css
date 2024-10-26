@@ -251,3 +251,9 @@ hr{
         font-size: 1em;
     }
 }
+@media(max-width: 810px){
+    .image1_cote_texte{
+        display: flex;
+        flex-direction: column;
+    }
+}
