@@ -11,15 +11,16 @@
     gap: 10px;
 }
 
-#bestseller{
+.presentationArt{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px;
 }
 
-#bestseller div{
+.presentationArt div{
     width: 240px;
     height: 240px;
     background-color: #523c44;
@@ -29,14 +30,14 @@
     border-radius: 20px;
 }
 
-#bestseller div img{
+.presentationArt div img{
     width: 200px;
     height: 200px;
     padding: 10px;
     transition: transform .1s;
 }
 
-#bestseller div:hover{
+.presentationArt div:hover{
     transform: scale(1.1);
     border: solid;
 }
@@ -87,4 +88,29 @@
 
 .container p{
     padding-left: 20px;
+}
+
+#slogan{
+    width: 80%;
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    .droite{
+        margin-left: 0;
+    }
+    
+    .gauche{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .titre{
+        width: 100%;
+        border: none;
+        border-radius: 0px;
+        background-color: #523c44;
+        color: white;
+    }
 }
