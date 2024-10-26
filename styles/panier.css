@@ -288,6 +288,7 @@ hr{
         float: none;
         font-size: 1em;
         height: auto;
+        align-items: center;
     }
     .achat_payer{
         display: flex;
