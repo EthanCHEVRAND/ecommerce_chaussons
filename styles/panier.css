@@ -275,9 +275,4 @@ hr{
     .description{
         margin-left: 15px;
     }
-    .achat_payer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 }
