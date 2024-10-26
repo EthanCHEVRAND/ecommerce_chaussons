@@ -268,10 +268,6 @@ hr{
         display: flex;
         flex-direction: column;
     }
-    .tout_texte{
-        display: flex;
-        justify-content: center;
-    }
     .description{
         margin-left: 15px;
     }
@@ -293,10 +289,6 @@ hr{
         display: flex;
         flex-direction: column;
         width: auto;
-    }
-    .tout_achat_payer{
-        display: flex;
-        justify-content: center;
     }
 }
 @media(min-width: 1px){
