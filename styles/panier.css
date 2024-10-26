@@ -269,22 +269,23 @@ hr{
         flex-direction: column;
     }
     .tout_texte{
-        float: left;
+        display: flex;
+        justify-content: center;
     }
     .description{
         margin-left: 15px;
     }
     .bon_achat{
-        float: left;
+        float: none;
     }
     .payer{
-        float: left;
+        float: none;
     }
     .credit_card{
         font-size: 1em;
     }
     .question{
-        float: left;
+        float: none;
         font-size: 1em;
         height: auto;
     }
@@ -292,6 +293,10 @@ hr{
         display: flex;
         flex-direction: column;
         width: auto;
+    }
+    .tout_achat_payer{
+        display: flex;
+        justify-content: center;
     }
 }
 @media(min-width: 1px){
