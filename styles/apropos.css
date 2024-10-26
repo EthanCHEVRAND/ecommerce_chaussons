@@ -225,7 +225,7 @@ main{
     flex-direction: column;
 }
 
-.liste_ingredient{
+#liste_ingredient{
     display: flex;
     flex-direction: row;
     justify-content: center;
