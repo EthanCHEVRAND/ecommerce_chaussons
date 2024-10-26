@@ -235,19 +235,18 @@ hr{
     text-decoration: none;
     color: var(--couleur2);
 }
-@media(max-width : 1050px){
-    #submit{
-        float: left;
-    }
+@media(max-width:1200px){
     .paiement{
         font-size: 1em;
+    }
+}
+@media(max-width: 1050px){
+    #submit{
+        float: left;
     }
     .livraison{
         font-size: 1em;
     }
 }
 @media(max-width : 800px){
-    .image1_cote_texte{
-        flex-direction: column;
-    }
 }
