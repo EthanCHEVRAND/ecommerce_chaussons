@@ -290,7 +290,10 @@ hr{
     }
     .achat_payer{
         display: flex;
-        justify-content: center;
         flex-direction: column;
+    }
+    .tout_achat_payer{
+        display: flex;
+        justify-content: center;
     }
 }
