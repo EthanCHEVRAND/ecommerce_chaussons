@@ -300,5 +300,6 @@ hr{
     .tout_achat_payer{
         display: flex;
         justify-content: center;
+        width: 50%;
     }
 }
