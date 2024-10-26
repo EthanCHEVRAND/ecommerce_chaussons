@@ -275,4 +275,10 @@ hr{
     .description{
         margin-left: 15px;
     }
+    .bon_achat{
+        float: none;
+    }
+    .payer{
+        float: none;
+    }
 }
