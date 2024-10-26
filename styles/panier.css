@@ -281,4 +281,7 @@ hr{
     .payer{
         float: none;
     }
+    .credit_card{
+        font-size: 1em;
+    }
 }
