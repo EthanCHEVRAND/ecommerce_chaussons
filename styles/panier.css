@@ -256,4 +256,12 @@ hr{
         display: flex;
         flex-direction: column;
     }
+    .image2_cote_texte{
+        display: flex;
+        flex-direction: column;
+    }
+    .image3_cote_texte{
+        display: flex;
+        flex-direction: column;
+    }
 }
