@@ -294,7 +294,6 @@ hr{
     }
     .tout_achat_payer{
         display: flex;
-        justify-content: center;
     }
 }
 @media(min-width: 1px){
