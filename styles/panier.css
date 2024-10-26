@@ -277,7 +277,6 @@ hr{
     }
     .bon_achat{
         float: none;
-        height: auto;
     }
     .payer{
         float: none;
@@ -288,5 +287,6 @@ hr{
     .achat_payer{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 }
