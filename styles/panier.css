@@ -277,9 +277,11 @@ hr{
     }
     .bon_achat{
         float: none;
+        justify-content: center;
     }
     .payer{
         float: none;
+        justify-content: center;
     }
     .credit_card{
         font-size: 1em;
